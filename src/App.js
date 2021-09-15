@@ -9,19 +9,19 @@ import luxuryIcon from './images/icon-luxury.svg';
 
 function App() {
   return (
-    <Container fluid='sm'>
+    <Container fluid='md'>
       <main>
         <Row>
-          <Col className='bg-honey text-light rounded-start'>
+          <Col className='bg-honey'>
             <PreviewContent
               alt='icon-sedan'
               icon={sedanIcon}
-              title='sedan'
+              title='sedans'
               content='Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
   or on your next road trip.'
             />
           </Col>
-          <Col className='bg-forest text-light'>
+          <Col className='bg-forest '>
             <PreviewContent
               alt='icon-sedan'
               icon={suvsIcon}
@@ -30,7 +30,7 @@ function App() {
   and off-road adventures.'
             />
           </Col>
-          <Col className='bg-darkforest text-light rounded-end'>
+          <Col className='bg-darkforest'>
             <PreviewContent
               alt='icon-sedan'
               icon={luxuryIcon}

@@ -3,7 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
 
 // Custom variables
+$border-radius: 1rem;
 $font-size-base: 1.5rem;
+$font-family-sans-serif: 'Lexend Deca', sans-serif;
+$headings-font-family: 'Big Shoulders Display', cursive;
 
 // Import the functions $ variables
 @import '../node_modules/bootstrap/scss/functions';
