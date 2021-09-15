@@ -4,9 +4,9 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Btn from './components/Btn';
 import PreviewContent from './components/PreviewContent';
-import sedanIcon from './images/icon-sedans.svg';
-import suvsIcon from './images/icon-suvs.svg';
-import luxuryIcon from './images/icon-luxury.svg';
+import sedanIcon from './assets/images/icon-sedans.svg';
+import suvsIcon from './assets/images/icon-suvs.svg';
+import luxuryIcon from './assets/images/icon-luxury.svg';
 
 function App() {
   return (

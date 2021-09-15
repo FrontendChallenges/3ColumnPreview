@@ -8245,3 +8245,14 @@ textarea.form-control-lg {
     display: inline-flex !important; }
   .d-print-none {
     display: none !important; } }
+
+.btn-snow {
+  background-color: #fff;
+  border: 2.5px solid #fff;
+  color: transparent; }
+  .btn-snow:hover {
+    background-color: transparent;
+    color: #fff; }
+
+html {
+  font-size: 62.5%; }
