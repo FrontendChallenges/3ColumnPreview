@@ -1,0 +1,3 @@
+.btn-snow {
+  @include button-variant($btn-background, $btn-border, $btn-color);
+}
