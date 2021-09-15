@@ -10,10 +10,10 @@ import luxuryIcon from './assets/images/icon-luxury.svg';
 
 function App() {
   return (
-    <Container fluid='md'>
+    <Container fluid='md' className=' mybox'>
       <main>
         <Row>
-          <Col className='bg-honey'>
+          <Col className='bg-warning'>
             <PreviewContent
               alt='icon-sedan'
               icon={sedanIcon}
@@ -22,10 +22,10 @@ function App() {
               excellent fuel economy. Ideal for cruising in the city 
               or on your next road trip.'
             >
-              <Btn title='Learn More' textColor='text-honey' />
+              <Btn title='Learn More' textColor='text-warning' />
             </PreviewContent>
           </Col>
-          <Col className='bg-forest '>
+          <Col className='bg-secondary'>
             <PreviewContent
               alt='icon-sedan'
               icon={suvsIcon}
@@ -34,10 +34,10 @@ function App() {
               power, and versatility. Perfect for your next family 
               vacation and off-road adventures.'
             >
-              <Btn title='Learn More' textColor='text-forest' />
+              <Btn title='Learn More' textColor='text-secondary' />
             </PreviewContent>
           </Col>
-          <Col className='bg-darkforest'>
+          <Col className='bg-success'>
             <PreviewContent
               alt='icon-sedan'
               icon={luxuryIcon}
@@ -46,7 +46,7 @@ function App() {
               the bloated prices. Enjoy the enhanced comfort of 
               a luxury rental and arrive in style.'
             >
-              <Btn title='Learn More' textColor='text-darkforest' />
+              <Btn title='Learn More' textColor='text-success' />
             </PreviewContent>
           </Col>
         </Row>

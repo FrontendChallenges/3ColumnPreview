@@ -1,0 +1,13 @@
+@include media-breakpoint-up(md) {
+  .mybox {
+    flex-direction: row;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .mybox {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+}

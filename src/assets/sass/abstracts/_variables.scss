@@ -1,5 +1,9 @@
-// Custom variables
+// Bootstrap default variable overrides
+
+// Border
 $border-radius: 1rem;
+
+// Button
 $btn-border-radius: 5rem;
 $btn-padding-y: 1.3rem;
 $btn-padding-x: 3rem;
@@ -7,6 +11,13 @@ $btn-hover-bg-tint-amount: 0%;
 $btn-background: #fff;
 $btn-border: #fff;
 $btn-color: #fff;
+
+// Fonts
 $font-size-base: 1.5rem;
 $font-family-sans-serif: 'Lexend Deca', sans-serif;
 $headings-font-family: 'Big Shoulders Display', cursive;
+
+// Colors
+$warning: hsl(31, 77%, 52%);
+$success: hsl(179, 100%, 13%);
+$secondary: hsl(184, 100%, 22%);
