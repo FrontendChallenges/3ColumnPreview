@@ -2,6 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Button from 'react-bootstrap/Button';
 import PreviewContent from './components/PreviewContent';
 import sedanIcon from './images/icon-sedans.svg';
 import suvsIcon from './images/icon-suvs.svg';
@@ -37,7 +38,11 @@ function App() {
               title='Luxury'
               content='Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
   rental and arrive in style.'
-            />
+            >
+              <Button variant='snow' className='text-darkforest'>
+                Learn More
+              </Button>
+            </PreviewContent>
           </Col>
         </Row>
       </main>
