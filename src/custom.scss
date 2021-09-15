@@ -1,24 +1,9 @@
-// Import google fonts
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
-
-// Custom variables
-$border-radius: 1rem;
-$btn-border-radius: 5rem;
-$btn-padding-y: 1.3rem;
-$btn-padding-x: 3rem;
-$btn-hover-bg-tint-amount: 0%;
-$font-size-base: 1.5rem;
-$font-family-sans-serif: 'Lexend Deca', sans-serif;
-$headings-font-family: 'Big Shoulders Display', cursive;
-
 // Import the functions $ variables
-// @import './sass/abstracts/variables';
 @import '../node_modules/bootstrap/scss/functions';
 @import '../node_modules/bootstrap/scss/variables';
 @import '../node_modules/bootstrap/scss/mixins';
-// @import './sass/abstracts/mixins';
 
+// Add new colors to theme colors
 $custom-theme-colors: (
   'honey': hsl(31, 77%, 52%),
   'forest': hsl(184, 100%, 22%),
@@ -37,5 +22,5 @@ $utilities-text-colors: map-loop(
 );
 $utilities-bg-colors: map-loop($utilities-colors, rgba-css-var, '$key', 'bg');
 
-/* import bootstrap to set changes */
+// Import bootstrap to set changes
 @import '../node_modules/bootstrap/scss/bootstrap';

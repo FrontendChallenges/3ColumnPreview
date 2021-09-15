@@ -1,7 +1,9 @@
+@import './base/typography';
 @import './abstracts/variables';
 @import '../custom.scss';
 @import './abstracts/mixins';
 @import './components/buttons';
+
 html {
   font-size: 62.5%;
 }

@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
-/* import bootstrap to set changes */
 /*!
  * Bootstrap v5.1.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -8246,14 +8245,3 @@ textarea.form-control-lg {
     display: inline-flex !important; }
   .d-print-none {
     display: none !important; } }
-
-.btn-snow {
-  background-color: #fff;
-  border: 2.5px solid #fff;
-  color: transparent; }
-  .btn-snow:hover {
-    background-color: transparent;
-    color: #fff; }
-
-html {
-  font-size: 62.5%; }
