@@ -9,6 +9,11 @@
     flex-direction: column;
     margin: 4rem 1rem;
   }
+
+  .footer-box {
+    margin-top: 0;
+    margin-bottom: 3rem;
+  }
 }
 
 // min-width:768px
@@ -24,5 +29,9 @@
     max-width: 100rem;
     margin: auto 1rem;
     flex-direction: row;
+  }
+
+  .footer-box {
+    margin-top: 3rem;
   }
 }

@@ -7924,6 +7924,10 @@ html {
   flex-direction: column;
   margin: 4rem 1rem; }
 
+.footer-box {
+  margin-top: 0;
+  margin-bottom: 3rem; }
+
 @media (min-width: 768px) {
   .container-box {
     height: 100vh;
@@ -7933,4 +7937,6 @@ html {
   .main-box {
     max-width: 100rem;
     margin: auto 1rem;
-    flex-direction: row; } }
+    flex-direction: row; }
+  .footer-box {
+    margin-top: 3rem; } }

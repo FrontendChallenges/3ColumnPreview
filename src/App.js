@@ -55,7 +55,7 @@ function App() {
             </Row>
           </main>
         </Col>
-        <Col>
+        <Col className='footer-box'>
           <Footer></Footer>
         </Col>
       </Row>
