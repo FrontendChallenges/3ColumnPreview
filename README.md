@@ -1,4 +1,4 @@
-# Frontend Mentor - Order summary card solution
+# Frontend Mentor - 3 column preview card solution
 
 This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
@@ -37,6 +37,9 @@ This is a solution to the [3-column preview card component challenge on Frontend
 ### Useful resources
 
 - [CSS-TRICKS](https://css-tricks.com/)
+- [Bootstrap v5.0](https://getbootstrap.com/docs/5.0/customize/sass/) -How to use Sass files with Bootstrap
+- [Bootstrap 5 Crash Course Tutorial #19 - Customizing Bootstrap](https://www.youtube.com/watch?v=nCX3QVl_PiI&list=PL4cUxeGkcC9joIM91nLzd_qaH_AimmdAR&index=19)
+- [How to create custom theme-colors in Bootstrap5](https://stackoverflow.com/questions/68755179/bootstrap-5-custom-theme-colors-not-updating-classes)
 
 ### What I learned
 
