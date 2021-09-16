@@ -9,9 +9,11 @@ This is a solution to the [3-column preview card component challenge on Frontend
 ### Screenshot
 - Desktop: 1440px
 
+![desktop-small](https://user-images.githubusercontent.com/83196262/133556505-4406e001-e405-4c92-96db-0584a24de7d7.png)
 
 - Mobile: 375px
 
+![mobile-small](https://user-images.githubusercontent.com/83196262/133556525-ff2f830e-a32b-4ff0-a814-88909a8cd79a.png)
 
 
 ### Links
