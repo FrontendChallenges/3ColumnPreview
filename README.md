@@ -29,8 +29,9 @@ This is a solution to the [3-column preview card component challenge on Frontend
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- [React](https://reactjs.org/) - JS library
-- [React-Bootstrap](https://react-bootstrap.github.io/) - For styles
+- Sass
+- [React](https://reactjs.org/)
+- [React-Bootstrap](https://react-bootstrap.github.io/)
 
 
 ### Useful resources
