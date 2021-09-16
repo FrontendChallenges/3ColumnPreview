@@ -39,7 +39,8 @@ This is a solution to the [3-column preview card component challenge on Frontend
 - [CSS-TRICKS](https://css-tricks.com/)
 - [Bootstrap v5.0](https://getbootstrap.com/docs/5.0/customize/sass/) -How to use Sass files with Bootstrap
 - [Bootstrap 5 Crash Course Tutorial #19 - Customizing Bootstrap](https://www.youtube.com/watch?v=nCX3QVl_PiI&list=PL4cUxeGkcC9joIM91nLzd_qaH_AimmdAR&index=19)
-- [How to create custom theme-colors in Bootstrap5](https://stackoverflow.com/questions/68755179/bootstrap-5-custom-theme-colors-not-updating-classes)
+- [Stackoverflow-How to create custom theme-colors in Bootstrap5](https://stackoverflow.com/questions/68755179/bootstrap-5-custom-theme-colors-not-updating-classes)
 
 ### What I learned
+In this challenge, I worked using Sass and Customizing Bootstrap. I learned two ways to customize. The first way is to override the default value of the variable in mySass without modifying the source code of the bootstrap. The second way is to add new colors and merge them into existing colors on the $me-colors map.
 
