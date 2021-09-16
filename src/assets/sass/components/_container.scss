@@ -1,14 +1,13 @@
 @include media-breakpoint-up(xs) {
   .container-box {
-    display: block;
-  }
-
-  main {
-    margin: 4rem 1rem;
+    &__content {
+      flex-direction: column;
+    }
   }
 
   .main-box {
     flex-direction: column;
+    margin: 4rem 1rem;
   }
 }
 
@@ -18,14 +17,12 @@
     height: 100vh;
     display: flex;
     justify-content: center;
-  }
-
-  main {
-    margin: auto 1rem;
+    align-items: center;
   }
 
   .main-box {
     max-width: 100rem;
+    margin: auto 1rem;
     flex-direction: row;
   }
 }

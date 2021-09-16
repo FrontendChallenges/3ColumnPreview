@@ -7917,22 +7917,20 @@ html {
     background-color: transparent;
     color: #fff; }
 
-.container-box {
-  display: block; }
-
-main {
-  margin: 4rem 1rem; }
+.container-box__content {
+  flex-direction: column; }
 
 .main-box {
-  flex-direction: column; }
+  flex-direction: column;
+  margin: 4rem 1rem; }
 
 @media (min-width: 768px) {
   .container-box {
     height: 100vh;
     display: flex;
-    justify-content: center; }
-  main {
-    margin: auto 1rem; }
+    justify-content: center;
+    align-items: center; }
   .main-box {
     max-width: 100rem;
+    margin: auto 1rem;
     flex-direction: row; } }
