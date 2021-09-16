@@ -10,9 +10,9 @@ import luxuryIcon from './assets/images/icon-luxury.svg';
 
 function App() {
   return (
-    <Container fluid='md' className=' mybox'>
+    <Container fluid='lg' className='container-box'>
       <main>
-        <Row>
+        <Row className='overflow-hidden rounded-3 main-box'>
           <Col className='bg-warning'>
             <PreviewContent
               alt='icon-sedan'

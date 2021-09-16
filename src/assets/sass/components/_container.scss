@@ -1,13 +1,31 @@
-@include media-breakpoint-up(md) {
-  .mybox {
-    flex-direction: row;
+@include media-breakpoint-up(xs) {
+  .container-box {
+    display: block;
+  }
+
+  main {
+    margin: 4rem 1rem;
+  }
+
+  .main-box {
+    flex-direction: column;
   }
 }
 
-@include media-breakpoint-up(lg) {
-  .mybox {
+// min-width:768px
+@include media-breakpoint-up(md) {
+  .container-box {
     height: 100vh;
     display: flex;
-    align-items: center;
+    justify-content: center;
+  }
+
+  main {
+    margin: auto 1rem;
+  }
+
+  .main-box {
+    max-width: 100rem;
+    flex-direction: row;
   }
 }
